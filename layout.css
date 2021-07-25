@@ -1,9 +1,9 @@
-#wraper {margin: auto; width: 840px; padding: 10px; border: 1px solid #ccc; background-color : white;}
-#header {background-image: url(./images/태양낙동강2.jpg); background-size : 100% 100%;  border : 1px solid #ccc; height: 100px; }
+#wraper {margin: auto; width: 840px; height:840px; padding: 10px; border: 1px solid #ccc; background-color : white;}
+#header {background-image: url(./images/태양낙동강2.jpg); background-size : 100% 100%;  border : 1px solid #ccc; height: 200px; }
 
-#contents {border : 1px solid #ccc; width: 590px; float: right; margin: 10px; padding: 5px;}
+#contents {border : 1px solid #ccc; width: 590px; height:500px; float: right; margin: 10px; padding: 5px;}
 
-#side {border: 1px solid #ccc; width: 200px; height:300px; margin:10px; padding: 5px; }
-#footer {border: 1px solid #ccc; clear : both;}
+#side {border: 1px solid #ccc; width: 200px; height:500px; margin:10px; padding: 5px; }
+#footer {border: 1px solid #ccc; clear : both; height:100px;}
 
-1
+

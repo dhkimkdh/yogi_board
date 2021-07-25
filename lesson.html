@@ -32,10 +32,39 @@
                     <li>사랑할때와 죽을때: <span class="author">레마르크</span></li>
                 
                     <li>천국에서 온 편지: <span class="author">최인호</span></li>
-                </ul>    
+                </ul> 
+                <table>
+                    <tr>
+                        <th>도서명</th>
+                        <th>출판사</th>
+                        <th>저자</th>
+                    </tr>
+                    <tr>
+                        <td>누구를 위하여 종은 울리나</td>
+                        <td rowspan="2">삼중당</td>
+                        <td>헤밍웨이</td>
+                    </tr>
+                    <tr>
+                        <td>사랑할 때와 죽을때</td>
+                        <td>레마르크</td>
+                    </tr>
+                    <tr>
+                        <td>천국에서 온 편지</td>
+                        <td>누보출판사</td>
+                        <td>최인호</td>
+                    </tr>
+                </table>   
         </div>
 
         <div id="side">
+
+             <!-- <form method="get" action="page1.html" class="login"> 전송방식 get방식은 비밀번호등 있는 그래도 다 노출됨 post 방식으로 바꿔야 함 -->
+                <form method="post" action="page1.html" class="login">
+                <input type="text" name="uid" placeholder="아이디" required><br>
+                <input type="password" name="pass" placeholder="비밀번호" required><br>
+                <input type="submit" name="submit" value="로그인">
+            </form>
+
             <li><a href="https://www.naver.com" target="_blank">네이버 홈피가기</a></li>
             <li><a href="https://www.google.com">다음 홈피가기</a></li>
             <li><a href="./page1.html">표준이 중요한 이유</a></li>
