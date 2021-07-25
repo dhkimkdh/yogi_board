@@ -3,4 +3,7 @@ h1, h2{font-family: 바탕; }
 h1 {font-size: 1.7rem ; text-align : center; color : maroon;}
 h2 {font-size: 120% ; color:blue; }
 p {line-height: 160%;}
-
+strong { color: red; font-weight: bold; font-size : 1.2rem; }
+em { color: blue ; font-style: italic; font-size : 1.2rem; }
+ul {list-style : square; }
+ul .author {color : blue; font-weight: bold; } 
